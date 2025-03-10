@@ -1,0 +1,121 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* My Course ke kiri, menu ke kanan */
+}
+
+/* My Course */
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-family: 'Courier New', monospace;
+    margin-left: 20px; /* Beri sedikit jarak dari kiri */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px; /* Beri jarak dari kanan */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Section Tutors */
+.tutors-section {
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.tutors-section h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.tutors-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+}
+
+.tutors-section p {
+    font-size: 14px;
+    color: gray;
+    margin: 20px 0;
+}
+
+/* Daftar Tutor */
+.tutors-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.tutor {
+    text-align: center;
+}
+
+.tutor img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0000ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.loginbutton {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgba(83, 83, 255, 0);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #0000ff;
+    outline-offset: -2px;
+}
